@@ -121,7 +121,7 @@ function swipeBackground(newImageUrl) {
 
   volumeSlider.addEventListener('input', function() {
   audio.volume = this.value;
-};
+});
 
 loopBtn.addEventListener('click', () => {
   // 1. Toggle the built-in HTMLAudioElement 'loop' property
